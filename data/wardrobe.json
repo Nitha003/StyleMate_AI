@@ -1,74 +1,52 @@
-[
-    {
-        "id": 1,
-        "name": "Blue T-Shirt",
-        "category": "Tops",
-        "color": "Blue",
-        "pattern": "Solid",
-        "style": "Casual",
-        "season": "Summer",
-        "occasion": ["College", "Casual"],
-        "activity": ["Regular", "Outdoor"],
-        "imagePath": ""
-    },
-    {
-        "id": 2,
-        "name": "Black Jeans",
-        "category": "Bottoms",
-        "color": "Black",
-        "pattern": "Solid",
-        "style": "Casual",
-        "season": "All",
-        "occasion": ["College", "Casual"],
-        "activity": ["Regular", "Outdoor"],
-        "imagePath": ""
-    },
-    {
-        "id": 3,
-        "name": "White Sneakers",
-        "category": "Shoes",
-        "color": "White",
-        "pattern": "Solid",
-        "style": "Casual",
-        "season": "All",
-        "occasion": ["College", "Casual"],
-        "activity": ["Regular", "Outdoor"],
-        "imagePath": ""
-    },
-    {
-        "id": 4,
-        "name": "Red Shirt",
-        "category": "Tops",
-        "color": "Red",
-        "pattern": "Solid",
-        "style": "Formal",
-        "season": "All",
-        "occasion": ["Office", "Formal"],
-        "activity": ["Regular"],
-        "imagePath": ""
-    },
-    {
-        "id": 5,
-        "name": "Black Trousers",
-        "category": "Bottoms",
-        "color": "Black",
-        "pattern": "Solid",
-        "style": "Formal",
-        "season": "All",
-        "occasion": ["Office", "Formal"],
-        "activity": ["Regular"],
-        "imagePath": ""
-    },
-    {
-        "id": 6,
-        "name": "Grey Hoodie",
-        "category": "Tops",
-        "color": "Grey",
-        "pattern": "Solid",
-        "style": "Casual",
-        "season": "Winter",
-        "occasion": ["College", "Casual"],
-        "activity": ["Regular"],
-        "imagePath": ""
-    }
-]
+{
+    "items": [
+        {
+            "id": "001",
+            "name": "Blue T-Shirt",
+            "category": "Tops",
+            "color": "Blue",
+            "pattern": "Solid",
+            "style": "Casual",
+            "season": "Summer",
+            "occasion": "College",
+            "activity": "Regular",
+            "imagePath": ""
+        },
+        {
+            "id": "002",
+            "name": "Black Hoodie",
+            "category": "Tops",
+            "color": "Black",
+            "pattern": "Solid",
+            "style": "Casual",
+            "season": "Winter",
+            "occasion": "College",
+            "activity": "Regular",
+            "imagePath": ""
+        },
+        {
+            "id": "003",
+            "name": "Black Jeans",
+            "category": "Bottoms",
+            "color": "Black",
+            "pattern": "Solid",
+            "style": "Casual",
+            "season": "All",
+            "occasion": "College",
+            "activity": "Regular",
+            "imagePath": ""
+        },
+        {
+            "id": "004",
+            "name": "White Sneakers",
+            "category": "Shoes",
+            "color": "White",
+            "pattern": "Solid",
+            "style": "Casual",
+            "season": "All",
+            "occasion": "College",
+            "activity": "Regular",
+            "imagePath": ""
+        }
+    ]
+}
