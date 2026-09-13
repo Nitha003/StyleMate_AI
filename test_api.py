@@ -1,0 +1,69 @@
+import requests
+
+url = "http://127.0.0.1:5000/recommend"
+
+data = {
+    "wardrobe": {
+        "items": [
+            {
+                "id": "001",
+                "name": "Blue T-Shirt",
+                "category": "Tops",
+                "color": "Blue",
+                "pattern": "Solid",
+                "style": "Casual",
+                "season": "Summer",
+                "occasion": "College",
+                "activity": "Regular",
+                "imagePath": ""
+            },
+            {
+                "id": "002",
+                "name": "Black Hoodie",
+                "category": "Tops",
+                "color": "Black",
+                "pattern": "Solid",
+                "style": "Casual",
+                "season": "Winter",
+                "occasion": "College",
+                "activity": "Regular",
+                "imagePath": ""
+            },
+            {
+                "id": "003",
+                "name": "Black Jeans",
+                "category": "Bottoms",
+                "color": "Black",
+                "pattern": "Solid",
+                "style": "Casual",
+                "season": "All",
+                "occasion": "College",
+                "activity": "Regular",
+                "imagePath": ""
+            },
+            {
+                "id": "004",
+                "name": "White Sneakers",
+                "category": "Shoes",
+                "color": "White",
+                "pattern": "Solid",
+                "style": "Casual",
+                "season": "All",
+                "occasion": "College",
+                "activity": "Regular",
+                "imagePath": ""
+            }
+        ]
+    },
+    "preferences": {
+        "occasion": "College",
+        "weather": "Cold",
+        "activity": "Regular",
+        "style": "Casual"
+    }
+}
+
+response = requests.post(url, json=data)
+
+print("Status:", response.status_code)
+print(response.json())
